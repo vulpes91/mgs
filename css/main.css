@@ -78,7 +78,7 @@ h1 {
     margin-bottom: 37px;
 }
 
-.header-content-button {
+.button {
     display: block;
     padding: 15px 34px;
     max-width: 282px;
@@ -94,7 +94,176 @@ h1 {
     transition: .2s;
 }
 
-.header-content-button:hover {
-    background: #aa15cf;
+.button:hover {
+    background: #b510df;
 }
 /* конец главная */
+
+/* начало проекты */
+
+/* конец проекты */
+
+.projects {
+    background-image: url(../pics/bg_texture.jpg);
+    background-repeat: repeat-x;
+    padding-top: 70px;
+}
+        
+.projects_header {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;    
+    text-align: center;
+
+    margin-bottom: 77px;
+}
+
+.projects_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.projects_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 60px;
+}
+
+.projects_card-picture{
+    box-shadow: 0px 0px 6px 3px rgba(255, 255, 255, 0.25);
+}
+
+.project_card-description{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.project_card-description-header{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 22px;
+}
+
+.project_card-description-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    margin-bottom: 33px;
+}
+
+.project_card-icons{
+    display: flex;
+}
+
+.project_card-icons-item {
+    max-width: 43px;
+    margin-right: 26px;
+}
+/* Team start */
+
+.team {
+    background-image: url(../pics/bg_texture.jpg);
+    background-repeat: repeat-x;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.our_team-header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.our_team-description {
+    max-width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.our_team-cardswrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+
+.our_team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #846F8A;
+    border-radius: 11px;
+    width: 312px;
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.our_team-card-pic {
+    margin-bottom: 17px;
+}
+
+.our_team-card-name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 115%;
+
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.our_team-card-job {
+    max-width: 123px;
+    font-size: 14px;
+    line-height: 17px;
+    height: 34px;
+    text-align: center;
+    margin-bottom: 18px;
+    font-weight: normal;
+}
+
+.our_team-card-desc {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 258px;
+}
+
+.our_team-card-divider {
+    width: 100%;
+    background: #E7E1E9;
+    height: 2px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.our_team-card-icons {
+    display: flex;
+}
+.our_team-card-icon-item {
+    margin-right: 20px;
+}
+
+.our_team-joboffer {
+   text-align: center;
+   margin-bottom: 30px;
+}
+.our_team-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+/* Team end */
